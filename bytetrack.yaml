@@ -1,0 +1,14 @@
+# ByteTrack configuration
+
+tracker_type: bytetrack # DO NOT CHANGE THIS. tracker_type must be bytetrack
+
+# Base Tracker Args
+track_high_thresh: 0.6 # High confidence threshold for initiating tracks
+track_low_thresh: 0.1  # Low confidence threshold for associating detections
+new_track_thresh: 0.7 # Threshold for confirming new tracks from low-score detections
+match_thresh: 0.8      # IOU threshold for matching tracks and detections
+
+# ByteTrack specific Args
+track_buffer: 120      # Number of frames to buffer lost tracks (increased from default ~30)
+frame_rate: 30         # Assumed frame rate
+fuse_score: true       # Explicitly add fuse_score (default is often true)

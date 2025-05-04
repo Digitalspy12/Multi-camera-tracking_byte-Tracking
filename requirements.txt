@@ -1,0 +1,8 @@
+ultralytics
+lap>=0.5.12
+torch
+torchvision
+opencv-python
+torchreid
+numpy
+scipy
