@@ -3,8 +3,8 @@ import os
 import glob
 
 # --- Model Paths ---
-YOLO_MODEL_PATH = 'yolov8n.pt' # Using official YOLOv8 nano model (compatible with ultralytics lib)
-REID_MODEL_NAME = 'osnet_x1_0' # Example: 'osnet_x0_25', 'osnet_x1_0', 'resnet50'
+OLO_MODEL_PATH = 'yolov8m.pt' # Using official YOLOv8 nano model (compatible with ultralytics lib)
+REID_MODEL_NAME = 'resnet50' # Example: 'osnet_x0_25', 'osnet_x1_0', 'resnet50'
 
 # --- Tracking Parameters ---
 TRACKER_CONFIG = './bytetrack.yaml' # Use local ByteTrack config
